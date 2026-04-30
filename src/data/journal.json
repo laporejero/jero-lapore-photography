@@ -1,0 +1,67 @@
+[
+    {
+    "id": "monochrome-memories",
+    "title": "Monochrome Memories: What Black and White Film Taught Me About Light, Failure, and Surprise",
+    "date": "2025-06-06",
+    "coverImage": "/images/monochrome/000001.JPG",
+    "content": [
+        {
+        "type": "image",
+        "layout": "solo",
+        "src": "/images/monochrome/000001.JPG",
+        "alt": "000001"
+        },
+        {
+        "type": "paragraph",
+        "text": "I shoot film—not for nostalgia, but for the process. There’s something grounding about working with limitations..."
+        },
+        {
+        "type": "image-group",
+        "layout": "grid-3",
+        "images": [
+            { "src": "/images/monochrome/000005.JPG", "alt": "000005" },
+            { "src": "/images/monochrome/000003.JPG", "alt": "000003" },
+            { "src": "/images/monochrome/000006.JPG", "alt": "000006" }
+        ]
+        },
+        {
+        "type": "heading",
+        "level": 5,
+        "text": "The Experiment"
+        },
+        {
+        "type": "paragraph",
+        "text": "I loaded my Canonet QL17 with a roll of Agfa APX 400 black and white film..."
+        },
+        {
+        "type": "image",
+        "layout": "solo",
+        "src": "/images/monochrome/000002.JPG",
+        "alt": "000002"
+        },
+        {
+        "type": "image",
+        "layout": "solo",
+        "src": "/images/monochrome/000004.JPG",
+        "alt": "000004"
+        },
+        {
+        "type": "heading",
+        "level": 5,
+        "text": "The Challenge of Film"
+        },
+        {
+        "type": "paragraph",
+        "text": "With digital, you can shoot a hundred frames and know exactly what you got..."
+        },
+        {
+        "type": "image-group",
+        "layout": "grid-2",
+        "images": [
+            { "src": "/images/monochrome/000008.JPG", "alt": "000008" },
+            { "src": "/images/monochrome/000010.JPG", "alt": "000010" }
+        ]
+        }
+    ]
+    }
+]

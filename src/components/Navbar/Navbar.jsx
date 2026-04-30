@@ -14,6 +14,7 @@ function Navbar() {
               <li><Link to="/about">About</Link></li>
             </ul>
         </nav>
+        <hr />
       </div>
     </header>
   )

@@ -1,0 +1,23 @@
+.cardContainer {
+    background-color: var(--home-bg);
+    margin-top: 6rem;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: transform 0.3s ease;
+}
+
+.cardContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.cardContainer:hover {
+    opacity: 0.7;
+    transform: scale(1.1); 
+}

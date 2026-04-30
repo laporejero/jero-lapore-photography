@@ -1,0 +1,7 @@
+.footer {
+    height: var(--footer-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-sm);
+}

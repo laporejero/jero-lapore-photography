@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home/Home"
 import Gallery from "./pages/Gallery/Gallery"
-import Journal from "./pages/Journal"
+import Journal from "./pages/Journal/Journal"
 import About from "./pages/About"
 
 function App() {
