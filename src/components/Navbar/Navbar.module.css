@@ -1,0 +1,21 @@
+/* ---------- NAVBAR ---------- */
+header {
+    background-color: var(--home-bg);
+    color: var(--home-text-color);
+}
+
+.navbar {
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinkContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLinkContainer a:hover {
+    opacity: 0.8;
+}
