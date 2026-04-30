@@ -1,0 +1,39 @@
+{
+    "home": [
+        {
+            "id": 1,
+            "filename": "collapse.jpg",
+            "src": "/images/home/collapse.jpg"
+        },
+        {
+            "id": 2,
+            "filename": "inside-looking-out.jpg",
+            "src": "/images/home/inside-looking-out.jpg"
+        },
+        {
+            "id": 3,
+            "filename": "kids-tree.jpg",
+            "src": "/images/home/kids-tree.jpg"
+        },
+        {
+            "id": 4,
+            "filename": "laugh.jpg",
+            "src": "/images/home/laugh.jpg"
+        },
+        {
+            "id": 5,
+            "filename": "bbq.jpg",
+            "src": "/images/home/bbq.jpg"
+        },
+        {
+            "id": 6,
+            "filename": "ascend.jpg",
+            "src": "/images/home/ascend.jpg"
+        },
+        {
+            "id": 7,
+            "filename": "2026-jan-bnw.jpg",
+            "src": "/images/home/2026-jan-bnw.jpg"
+        }
+    ]
+}
