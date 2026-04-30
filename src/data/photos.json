@@ -35,5 +35,50 @@
             "filename": "2026-jan-bnw.jpg",
             "src": "/images/home/2026-jan-bnw.jpg"
         }
+    ],
+
+    "gallery": [
+        {
+            "id": 1,
+            "filename": "000001.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000001.jpg"
+        },
+        {
+            "id": 2,
+            "filename": "000002.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000002.jpg"
+        },
+        {
+            "id": 3,
+            "filename": "000003.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000003.jpg"
+        },
+        {
+            "id": 4,
+            "filename": "000004.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000004.jpg"
+        },
+        {
+            "id": 5,
+            "filename": "000005.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000005.jpg"
+        },
+        {
+            "id": 6,
+            "filename": "000006.jpg",
+            "layout": "wide tall",
+            "src": "/images/gallery/000006.jpg"
+        },
+        {
+            "id": 8,
+            "filename": "000008.jpg",
+            "layout": "wide",
+            "src": "/images/gallery/000008.jpg"
+        }
     ]
 }

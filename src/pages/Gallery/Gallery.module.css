@@ -1,0 +1,71 @@
+/* -------------------- GALLERY -------------------- */
+.gallerySection {
+    background-color: var(--home-bg);
+}
+
+.gallery > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery > img:hover {
+    cursor: pointer;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+    padding: 3rem 0;
+}
+
+/* Custom Sizing */
+.wide {
+    grid-column: span 4;
+}
+
+.tall {
+    grid-row: span 2;
+}
+
+.span5 {
+    grid-column: span 5;
+}
+
+.span3 {
+    grid-column: span 3;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.lightboxImg {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* .lightbox.hidden {
+  display: none;
+} */
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
