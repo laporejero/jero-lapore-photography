@@ -2,13 +2,19 @@
 .journalSection {
     background-color: var(--home-bg);
     height: calc(100vh - var(--nav-height) - var(--footer-height));
+    color: var(--home-text-color)
 }
 
-.journalSection div {
+.articleSection {
+    background-color: var(--home-bg);
+    color: var(--home-text-color);
+}
+
+.journalSection, .articleSection > div {
     padding: 0 1rem;
 }
 
-.journalSection h3 {
+.journalSection, .articleSection h3 {
     text-align: center;
     padding: 3rem 0;
 }
@@ -23,6 +29,47 @@
     gap: 3rem;
     max-width: 130rem;
     margin: 0 auto;
+}
+
+.coverImage {
+    display: block;
+    margin: 3rem auto;
+    max-width: 80%;
+    height: auto;
+}
+
+h5 {
+    margin-bottom: 1rem;
+}
+
+.imageSolo {
+    display: block;
+    margin: 3rem auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.imagesGroup2, .imagesGroup3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    height: auto;
+}
+
+.imagesGroup3 {
+    grid-template-rows: 1fr 1fr;
+}
+
+.imagesGroup2 img, 
+.imagesGroup3 img {
+    margin: 3rem auto;
+    max-width: 90%;
+    object-fit: cover;
+    max-height: auto;
+}
+
+h5:last-of-type {
+    margin-top: 3rem;
 }
 
 footer {
