@@ -1,0 +1,53 @@
+.aboutSection {
+    background-color: var(--home-bg);
+    color: var(--home-text-color);
+    height: calc(100vh - var(--nav-height));
+}
+
+.grid {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    max-width: 1400px;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+
+    grid-template-areas: "image contents"
+}
+
+.grid img {
+    grid-area: image;
+    width: 90%;
+    height: auto;
+}
+
+.aboutParagraph {
+    grid-area: contents;
+    /* align-self: end; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.socialLinks {
+    /* grid-area: links; */
+    margin-top: 0;
+    align-self: start;
+    gap: 1rem;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialItem {
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}

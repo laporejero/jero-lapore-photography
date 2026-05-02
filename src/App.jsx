@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home"
 import Gallery from "./pages/Gallery/Gallery"
 import Journal from "./pages/Journal/Journal"
 import JournalArticle from "./pages/Journal/JournalArticle"
-import About from "./pages/About"
+import About from "./pages/About/About"
 
 function App() {
   return (
