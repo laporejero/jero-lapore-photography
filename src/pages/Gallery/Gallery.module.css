@@ -69,3 +69,24 @@
   color: white;
   cursor: pointer;
 }
+
+/* QUERIES */
+/* SM - MOBILE (HORIZONTAL) (577px – 768px) */
+@media (max-width: 48rem) {
+    /* .gallerySection {
+        padding: 3rem 0;
+    } */
+
+    .gallery {
+        display: block;
+    }
+
+    /* Custom Sizing */
+    .wide, .span5, .span3 {
+        grid-column: none;
+    }
+
+    .tall {
+        grid-row: none;
+    }
+}

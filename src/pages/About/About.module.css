@@ -51,3 +51,36 @@
     justify-content: center;
     justify-content: center;
 }
+
+/* QUERIES */
+/* MD - TABLET (769px – 992px) */
+@media (max-width: 62rem) {
+    .grid img {
+        align-self: flex-start;
+    }
+}
+
+/* SM - MOBILE (HORIZONTAL) (577px – 768px) */
+@media (max-width: 48rem) {
+    .grid {
+        grid-template-columns: 1fr;
+
+        grid-template-areas: "image"
+                             "contents";
+    }
+
+    .grid img {
+        max-width: 60rem;
+    }
+
+    .aboutParagraph {
+        width: 90%;
+    }
+}
+
+/* XS - PHONE (PORTRAIT) (0 – 576px) */
+@media (max-width: 36rem) {
+    .aboutParagraph {
+        gap: 3rem;
+    }
+}

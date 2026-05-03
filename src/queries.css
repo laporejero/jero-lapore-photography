@@ -1,0 +1,36 @@
+/* LG - LAPTOP/DESKTOP (993px – 1104px) */
+@media (max-width: 69rem) {
+    /* 1104px / 16px = 69rem */
+    /* 69rem x 16px = 1104px */
+    html {
+        font-size: 56.25%;
+        /* 9px / 16px = 56.25% */
+    }
+}
+
+/* MD - TABLET (769px – 992px) */
+@media (max-width: 62rem) {
+    /* 992px / 16px = 62rem */
+    /* 62rem x 16px = 992px */
+    html {
+        font-size: 50%;
+        /* 8px / 16px = 50% */
+    }    
+}
+
+/* SM - MOBILE (HORIZONTAL) (577px – 768px) */
+@media (max-width: 48rem) {
+    /* 768px / 16rpx = 48rem */
+    /* 48rem x 16px = 768px */
+    html {
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75% */
+    }
+}
+
+/* XS - PHONE (PORTRAIT) (0 – 576px) */
+/* @media (max-width: 36rem) {
+    html {
+        font-size: 37.5%;
+    }
+} */

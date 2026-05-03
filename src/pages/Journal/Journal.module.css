@@ -14,8 +14,11 @@
     padding: 0 1rem;
 }
 
-.journalSection, .articleSection h3 {
+.journalSection {
     text-align: center;
+}
+
+.journalSection h3 {
     padding: 3rem 0;
 }
 
@@ -25,7 +28,7 @@
 
 .cardGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 3rem;
     max-width: 130rem;
     margin: 0 auto;
@@ -34,18 +37,14 @@
 .coverImage {
     display: block;
     margin: 3rem auto;
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
-}
-
-h5 {
-    margin-bottom: 1rem;
 }
 
 .imageSolo {
     display: block;
     margin: 3rem auto;
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -68,10 +67,48 @@ h5 {
     max-height: auto;
 }
 
-h5:last-of-type {
-    margin-top: 3rem;
-}
-
 footer {
     background-color: var(--home-bg);
+}
+
+/* QUERIES */
+@media (max-width: 62rem) {
+    html {
+        font-size: 50%;
+        /* 8px / 16px = 50% */
+    }
+
+    .cardGrid {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+
+    .imagesGroup2, .imagesGroup3 {
+        display: block;
+        margin: 3rem auto;
+        max-width: 100%; /* optional: keeps image responsive */
+        height: auto;
+        text-align: center;
+    }
+
+    .imagesGroup2 img, 
+    .imagesGroup3 img {
+        margin: 1.5rem auto;
+        max-width: 90%;
+    }
+}
+
+/* SM - MOBILE (HORIZONTAL) (577px – 768px) */
+@media (max-width: 48rem) {
+    /* 768px / 16rpx = 48rem */
+    /* 48rem x 16px = 768px */
+    .cardGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* XS - PHONE (PORTRAIT) (0 – 576px) */
+@media (max-width: 36rem) {
+    .cardGrid {
+        grid-template-columns: 1fr;
+    }  
 }

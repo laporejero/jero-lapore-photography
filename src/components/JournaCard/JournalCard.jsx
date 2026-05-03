@@ -5,7 +5,13 @@ function JournalCard({ title, date, image }) {
         <div className={styles.cardContainer}>
             <img src={image} alt={title} />
             <h5>{title}</h5>
-            <p>{new Date(date).toLocaleDateString()}</p>
+            <p>
+                {new Date(date).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                })}
+            </p>
         </div>
     )
 }

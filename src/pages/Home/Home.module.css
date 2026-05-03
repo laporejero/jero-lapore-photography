@@ -83,3 +83,62 @@
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+
+/* MD - TABLET (769px – 992px) */
+@media (max-width: 62rem) {
+    .homeContainer {
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        padding-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .slideshow {
+        height: 60vh;
+    }
+
+    .home-img {
+        padding-top: 4rem;
+    }
+}
+
+/* SM - MOBILE (HORIZONTAL) (577px – 768px) */
+@media (max-width: 48rem) {
+    .homeContainer {
+        height: auto;
+        padding-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .slideshow {
+        height: 50vh;
+    }
+}
+
+/* XS - PHONE (PORTRAIT) (0 – 576px) */
+@media (max-width: 36rem) {
+    .homeSection {
+        min-height: calc(100vh - var(--nav-height)); /* ensures full height */
+        height: auto; /* allow it to grow if content overflows */
+    }
+
+    .homeContainer {
+        height: auto;
+        padding-top: 3rem;
+        margin-bottom: 5rem;
+        min-height: calc(100vh - var(--nav-height) - var(--footer-height));
+        height: auto;
+    }
+
+    .slideshow {
+        height: auto; /* let it shrink naturally */
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+}

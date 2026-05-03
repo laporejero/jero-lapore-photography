@@ -19,3 +19,11 @@ header {
 .navLinkContainer a:hover {
     opacity: 0.8;
 }
+
+/* XS - PHONE (PORTRAIT) (0 – 576px) */
+@media (max-width: 36rem) {
+    .navbar {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
