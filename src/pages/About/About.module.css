@@ -1,6 +1,6 @@
 .aboutSection {
-    background-color: var(--home-bg);
-    color: var(--home-text-color);
+    background-color: var(--bg);
+    color: var(--text);
     height: calc(100vh - var(--nav-height));
 }
 

@@ -1,6 +1,6 @@
 /* -------------------- GALLERY -------------------- */
 .gallerySection {
-    background-color: var(--home-bg);
+    background-color: var(--bg);
 }
 
 .gallery > img {

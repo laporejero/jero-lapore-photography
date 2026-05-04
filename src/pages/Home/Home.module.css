@@ -1,7 +1,8 @@
 /* -------------------- HOMEPAGE -------------------- */
 .homeSection {
-    background-color: var(--home-bg);
+    background-color: var(--bg);
     height: calc(100vh - var(--nav-height));
+    color: var(--text);
 }
 
 .homeContainer {

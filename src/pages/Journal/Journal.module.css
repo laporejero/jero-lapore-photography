@@ -1,13 +1,13 @@
 /* -------------------- JOURNAL -------------------- */
 .journalSection {
-    background-color: var(--home-bg);
+    background-color: var(--bg);
     height: calc(100vh - var(--nav-height) - var(--footer-height));
-    color: var(--home-text-color)
+    color: var(--text)
 }
 
 .articleSection {
-    background-color: var(--home-bg);
-    color: var(--home-text-color);
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 .journalSection, .articleSection > div {
@@ -20,6 +20,11 @@
 
 .journalSection h3 {
     padding: 3rem 0;
+}
+
+.articleSection h3 {
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .paragraph {
@@ -68,7 +73,7 @@
 }
 
 footer {
-    background-color: var(--home-bg);
+    background-color: var(--bg);
 }
 
 /* QUERIES */

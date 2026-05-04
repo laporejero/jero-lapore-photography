@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import { useTheme } from "../Theme";
 import styles from "./Navbar.module.css"
 
 function Navbar() {
+  const {dark, setDark} = useTheme()
+
   return (
     <header>
       <div className="container">
@@ -12,6 +15,11 @@ function Navbar() {
               <li><Link to="/gallery">Gallery</Link></li>
               <li><Link to="/journal">Journal</Link></li>
               <li><Link to="/about">About</Link></li>
+              <button
+                onClick={() => setDark(!dark)}
+              >
+                {dark ? "Light" : "Dark"} Mode
+              </button>
             </ul>
         </nav>
         <hr />
