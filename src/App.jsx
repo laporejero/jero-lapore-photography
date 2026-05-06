@@ -5,7 +5,8 @@ import Gallery from "./pages/Gallery/Gallery"
 import Journal from "./pages/Journal/Journal"
 import JournalArticle from "./pages/Journal/JournalArticle"
 import About from "./pages/About/About"
-import { Theme } from "./components/Theme"
+import ThemeButton from "./components/Theme/ThemeButton"
+import { Theme } from "./components/Theme/Theme"
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route path="/journal/:id" element={<JournalArticle />} />
           <Route path="/about" element={<About />} />
         </Routes>
+
+        <ThemeButton />
       </BrowserRouter>
     </Theme>
   )

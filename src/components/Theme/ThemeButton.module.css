@@ -1,0 +1,27 @@
+.button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background: #e0e0e0;
+  color: #222; /* icon color in light mode */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+body.dark .button {
+  background: #333;
+  color: #fff;
+}
+
+.button svg {
+  stroke: currentColor;
+}
