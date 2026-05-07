@@ -22,7 +22,7 @@ function JournalArticle() {
                 return (
                     <img 
                         key={index}
-                        src={block.src}
+                        src={`${import.meta.env.BASE_URL}${block.src}`}
                         alt={block.alt}
                         className={styles.imageSolo}
                     />
@@ -34,7 +34,7 @@ function JournalArticle() {
                         {block.images.map((img, i) => (
                             <img 
                                 key={i} 
-                                src={img.src} 
+                                src={`${import.meta.env.BASE_URL}${img.src}`} 
                                 alt={img.alt} 
                                 style={img.span ? { gridRow: `span ${img.span}` } : {}}
                             />
@@ -48,7 +48,7 @@ function JournalArticle() {
                         {block.images.map((img, i) => (
                             <img 
                                 key={i}
-                                src={img.src}
+                                src={`${import.meta.env.BASE_URL}${img.src}`}
                                 alt={img.alt}
                             />
                         ))}
@@ -61,11 +61,15 @@ function JournalArticle() {
         <section className={styles.articleSection}>
             <div className="container">
                 <h3>{article.title}</h3>
-                <img className={styles.coverImage} src={article.coverImage} alt={article.title} />
+                <img 
+                    className={styles.coverImage} 
+                    src={`${import.meta.env.BASE_URL}${article.coverImage}`} 
+                    alt={article.title} 
+                />
 
                 {article.content.map(renderBlock)}
                 
-                <a href="#" class="back-to-top">Back to Top ↑</a>
+                <a href="#" className="back-to-top">Back to Top ↑</a>
 
                 <Footer />
             </div>    

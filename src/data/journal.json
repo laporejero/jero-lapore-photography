@@ -3,7 +3,7 @@
         "id": "monochrome-memories",
         "title": "Monochrome Memories: What Black and White Film Taught Me About Light, Failure, and Surprise",
         "date": "2025-06-06",
-        "coverImage": "/images/monochrome/000001.JPG",
+        "coverImage": "images/monochrome/000001.JPG",
         "content": [
             {
                 "type": "paragraph",
@@ -13,9 +13,9 @@
                 "type": "image-group-3",
                 "layout": "grid-3",
                 "images": [
-                    { "src": "/images/monochrome/000005.JPG", "alt": "000005" },
-                    { "src": "/images/monochrome/000003.JPG", "alt": "000003", "span": 2 },
-                    { "src": "/images/monochrome/000006.JPG", "alt": "000006" }
+                    { "src": "images/monochrome/000005.JPG", "alt": "000005" },
+                    { "src": "images/monochrome/000003.JPG", "alt": "000003", "span": 2 },
+                    { "src": "images/monochrome/000006.JPG", "alt": "000006" }
                 ]
             },
             {
@@ -30,13 +30,13 @@
             {
                 "type": "solo-image",
                 "layout": "solo",
-                "src": "/images/monochrome/000002.JPG",
+                "src": "images/monochrome/000002.JPG",
                 "alt": "000002"
             },
             {
                 "type": "solo-image",
                 "layout": "solo",
-                "src": "/images/monochrome/000004.JPG",
+                "src": "images/monochrome/000004.JPG",
                 "alt": "000004"
             },
             {
@@ -52,8 +52,8 @@
                 "type": "image-group-2",
                 "layout": "grid-2",
                 "images": [
-                    { "src": "/images/monochrome/000008.JPG", "alt": "000008" },
-                    { "src": "/images/monochrome/000010.JPG", "alt": "000010" }
+                    { "src": "images/monochrome/000008.JPG", "alt": "000008" },
+                    { "src": "images/monochrome/000010.JPG", "alt": "000010" }
                 ]
             },
             {
@@ -68,7 +68,7 @@
             {
                 "type": "solo-image",
                 "layout": "solo",
-                "src": "/images/monochrome/000011.JPG",
+                "src": "images/monochrome/000011.JPG",
                 "alt": "000011"
             },
             {
@@ -84,8 +84,8 @@
                 "type": "image-group-2",
                 "layout": "grid-2",
                 "images": [
-                    { "src": "/images/monochrome/000012.JPG", "alt": "000012" },
-                    { "src": "/images/monochrome/000013.JPG", "alt": "000013" }
+                    { "src": "images/monochrome/000012.JPG", "alt": "000012" },
+                    { "src": "images/monochrome/000013.JPG", "alt": "000013" }
                 ]
             },
             {

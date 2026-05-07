@@ -1,12 +1,12 @@
 .button {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: none;
 
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
 
   background: #e0e0e0;
   color: #222; /* icon color in light mode */

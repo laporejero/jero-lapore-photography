@@ -34,7 +34,7 @@ function Home() {
                 <div className={styles.homeContainer}>
                     <div className={styles.slideshow}>
                         <div className={`${styles.slide} ${styles.fade}`}>
-                            <img className={styles.homeImg} src={HomeImages.home[index].src} alt={`home section image ${HomeImages.home[index].id}`} />
+                            <img className={styles.homeImg} src={`${import.meta.env.BASE_URL}${HomeImages.home[index].src}`} alt={`home section image ${HomeImages.home[index].id}`} />
                         </div>
 
 

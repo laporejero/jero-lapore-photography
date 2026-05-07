@@ -13,11 +13,11 @@ function Gallery() {
 
         return (<img 
                     key={photo.id}
-                    src={photo.src} 
+                    src={`${import.meta.env.BASE_URL}${photo.src}`} 
                     className={classNames} 
                     alt={photo.filename} 
                     onClick={() => {
-                        setActiveImage(photo.src)
+                        setActiveImage(`${import.meta.env.BASE_URL}${photo.src}`)
                         setLightboxOpen(true)
                     }}
                 />

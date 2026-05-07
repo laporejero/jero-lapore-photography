@@ -11,7 +11,7 @@ import { Theme } from "./components/Theme/Theme"
 function App() {
   return (
     <Theme>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

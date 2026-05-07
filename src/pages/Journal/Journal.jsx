@@ -10,7 +10,7 @@ function Journal() {
             <JournalCard 
                 title={article.title}
                 date={article.date}
-                image={article.coverImage}
+                image={`${import.meta.env.BASE_URL}${article.coverImage}`}
             />
         </Link>
         )
