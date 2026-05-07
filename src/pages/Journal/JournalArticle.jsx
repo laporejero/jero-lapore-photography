@@ -16,7 +16,7 @@ function JournalArticle() {
                 return <p key={index}>{block.text}</p>
 
             case "heading":
-                return <h5 key={index}>{block.text}</h5>
+                return <h5 className={styles.articleHeading} key={index}>{block.text}</h5>
 
             case "solo-image":
                 return (

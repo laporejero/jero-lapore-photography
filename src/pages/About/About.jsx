@@ -20,12 +20,13 @@ function About() {
                             </div>
                             <div>
                                 <a className={styles.socialItem} href="https://www.instagram.com/jero.lapore/">
-                                    <img src={instagramLogo} alt="Instagram logo" />
+                                    <ion-icon name="logo-instagram"></ion-icon>
                                 </a>
                             </div>
                             <div>
                                 <a className={styles.socialItem} href="">
-                                    <img src={linkedinLogo} alt="Instagram logo" />
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                    {/* <img src={linkedinLogo} alt="Instagram logo" /> */}
                                 </a>
                             </div>
                         </div>

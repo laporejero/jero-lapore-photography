@@ -1,6 +1,6 @@
 .button {
-  width: 60px;
-  height: 60px;
+  width: 6.5rem;
+  height: 6.5rem;
   border-radius: 50%;
   border: none;
 
@@ -8,20 +8,36 @@
   bottom: 30px;
   right: 30px;
 
-  background: #e0e0e0;
-  color: #222; /* icon color in light mode */
+  /* icon color in light mode */
+  background: #333;
+  color: #fff; 
 
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  transition: 
+    transform 0.15s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+
+  user-select: none;
 }
 
-body.dark .button {
-  background: #333;
-  color: #fff;
+.button:hover {
+  transform: scale(1.08);
 }
 
-.button svg {
-  stroke: currentColor;
+.button:active {
+  transform: scale(0.92);
+}
+
+:global(body.dark) .button {
+  background: #e0e0e0;
+  color: #222;
+}
+
+ion-icon {
+  font-size: 4.5rem;
 }

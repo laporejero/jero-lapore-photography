@@ -72,6 +72,10 @@
     max-height: auto;
 }
 
+.articleHeading:last-of-type {
+    margin-top: 4rem;
+}
+
 footer {
     background-color: var(--bg);
 }

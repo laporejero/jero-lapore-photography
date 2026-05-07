@@ -52,6 +52,10 @@
     justify-content: center;
 }
 
+ion-icon {
+  font-size: 30px;
+}
+
 /* QUERIES */
 /* MD - TABLET (769px – 992px) */
 @media (max-width: 62rem) {
