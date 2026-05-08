@@ -129,7 +129,7 @@
         height: auto;
         padding-top: 3rem;
         margin-bottom: 5rem;
-        min-height: calc(100vh - var(--nav-height) - var(--footer-height));
+        min-height: calc(95vh - var(--nav-height) - var(--footer-height));
         height: auto;
     }
 
