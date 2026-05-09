@@ -34,8 +34,11 @@ A major focus of the project was building a flexible design system using CSS var
 Working with JSON-based content management allowed me to separate presentation from data, making the gallery and journal sections easier to maintain and expand over time.
 
 <img width="1877" height="956" alt="home-web" src="https://github.com/user-attachments/assets/5d1fd1a3-707a-4b12-9752-c04fee7738b2" />
+
 <img width="1878" height="959" alt="home-wed-dark" src="https://github.com/user-attachments/assets/51d82f1a-cb1c-413d-a97e-5048feb5d1d3" />
+
 <img width="1883" height="959" alt="gallery-web" src="https://github.com/user-attachments/assets/43b55fa3-1a1c-4bac-bfba-af1343a87c0e" />
+
 <img width="1884" height="952" alt="lightbox-web" src="https://github.com/user-attachments/assets/8fde4356-d6ea-4934-90a8-1a4fe1611906" />
 <img width="1881" height="954" alt="journal-web" src="https://github.com/user-attachments/assets/abee6435-aad1-4df9-abe8-a0b979203564" />
 <img width="402" height="872" alt="article-mobile" src="https://github.com/user-attachments/assets/27e0d907-9be1-43a6-986f-d434d2a847fe" />
