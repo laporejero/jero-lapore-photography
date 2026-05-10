@@ -20,7 +20,11 @@
 
 .homeContainer p {
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem 10rem;
+}
+
+.homeContainer span {
+    font-style: italic;
 }
 
 .slideshow {
@@ -97,6 +101,7 @@
     }
 
     .slideshow {
+        width: 100%;
         height: 60vh;
     }
 
@@ -116,6 +121,10 @@
     .slideshow {
         height: 50vh;
     }
+
+    .homeContainer p {
+        margin: 2rem 5rem;
+    }
 }
 
 /* XS - PHONE (PORTRAIT) (0 – 576px) */
@@ -131,6 +140,10 @@
         margin-bottom: 5rem;
         min-height: calc(95vh - var(--nav-height) - var(--footer-height));
         height: auto;
+    }
+
+    .homeContainer p {
+        margin: 2rem;
     }
 
     .slideshow {

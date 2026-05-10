@@ -42,7 +42,7 @@ function Home() {
                         <a className={styles.next} onClick={nextSlide}>&#10095;</a>
                     </div>
                     <div>
-                        <p>“It’s strange to look at something and feel like it’s showing you what your own mind looks like. A clutter of thoughts behind a barrier — visible, but hard to reach.”</p>
+                        <p><span>“Truly good photographs are not taken with the camera. They come from inside you, your eyes, your brain, your heart, not some cold piece of equipment.”</span> - Fan Ho</p>
                     </div>
                 </div>
 
